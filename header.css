@@ -1,0 +1,36 @@
+.container .menu{
+    width: 100%;
+    background-color: aqua;
+    padding: 0 100px;
+}
+.container header nav{
+    width: 100%;
+    height: 100%;
+}
+.container header nav .menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.container header nav ul li{
+    padding: 20px 18px;
+}
+.container header nav ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+}
+.container header nav ul li a::before{
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 1.5px;
+    background-color: black;
+    bottom: -5px;
+    transition: 0.3s ease-in-out;
+}
+
+.container header nav ul li a:hover::before{
+    width: 100%;
+}
