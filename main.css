@@ -132,13 +132,7 @@
    
    
 }
-.container main .feature-work .row .card {
-    width: 100%;
-    border-bottom: 1px solid gray;
-    margin:15px 0px ;
-    display: flex;
-    flex-direction: column;
-}
+
 .container main .feature-work .row .card .image{
     width: 100%;
     /* height: 250px; */
@@ -170,6 +164,7 @@
 }
 .container main .feature-work .row .card{
     display: flex;
+    flex-direction: column;
     padding-bottom:15px ;
 }
 .container main .feature-work .row .card .card-body{
@@ -217,9 +212,14 @@
     .container main .content-exp {
         padding: 0 30px;
     }
-    .container main .feature-work .row .card{
+    .container main .feature-work .row {
         display: flex;
+        justify-content: space-between;
+    }
+    .container main .feature-work .row .card{
         padding-bottom: 15px;
+        display: flex;
+        flex-direction: row;
     }
     .container main .feature-work .row .card .card-body{
         width: 70%;
