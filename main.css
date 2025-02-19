@@ -212,10 +212,6 @@
     .container main .content-exp {
         padding: 0 30px;
     }
-    .container main .feature-work .row {
-        display: flex;
-        justify-content: space-between;
-    }
     .container main .feature-work .row .card{
         padding-bottom: 15px;
         display: flex;
